@@ -1,12 +1,14 @@
 {
   "name": "eslint-plugin-full-import",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "ESLint plugin for preventing accidental full import of huge libraries",
   "author": "Mouad Debbar <mouad.debbar@gmail.com>",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib/"
-  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
   "scripts": {
     "test": "yarn lint && mocha",
     "build": "rm -rf lib && babel src --out-dir lib",
@@ -32,8 +34,9 @@
   },
   "keywords": [
     "eslint",
-    "plugin",
-    "full import",
+    "eslintplugin",
+    "eslint-plugin",
+    "full-import",
     "lodash",
     "aws-sdk"
   ]
