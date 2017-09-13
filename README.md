@@ -1,9 +1,6 @@
 eslint-plugin-full-import
 ====================
 
-[![Travis Build Status][build-badge]][build]
-[![devDependency Status][dev-deps-badge]][dev-deps]
-
 Configurable linting rule for preventing the full-importing of huge libraries (e.g. lodash, aws-sdk, etc).
 
 # Installation
